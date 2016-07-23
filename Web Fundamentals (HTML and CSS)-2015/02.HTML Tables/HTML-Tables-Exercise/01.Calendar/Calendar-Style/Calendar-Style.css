@@ -1,0 +1,28 @@
+table {
+    border: solid #D1D1D1 2px;
+    background-color: #F0F0F0;
+}
+th {
+    border: solid #D1D1D1 1px;
+    background-color: #CCCCCC;
+}
+.weekdays {
+    border: solid #D1D1D1 1px;
+    font-weight: bold;
+    background-color: #CCCCCC;
+    text-align: right;
+}
+td {
+    border: solid #D1D1D1 1px;
+    background-color: #EEEEEE;
+}
+.pale {
+    border: solid #D1D1D1 1px;
+    color: #D1D1D1;
+}
+.bold {
+    border: solid #D1D1D1 1px;
+    font-weight: bold;
+    background-color: #EEEEEE;
+    text-align: center;
+}
