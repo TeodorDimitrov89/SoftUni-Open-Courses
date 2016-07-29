@@ -1,0 +1,199 @@
+
+#wrapper {
+    background-color: #00923E;
+    margin: 20px;
+    padding: 15px;
+    width: 1000px;
+}
+
+table,tr,td{
+    border: 1px solid;
+    margin: 0 auto;
+    height: 50px;
+
+}
+table,td {
+    width: 900px;
+}
+th {
+    background-color: #F8C711;
+    font-weight: bold;
+    text-align: center;
+    border: 1px solid;
+    margin: 0 auto;
+    height: 40px;
+}
+#rounded-top-left,table {
+    border-top-left-radius: 15px;
+}
+#rounded-top-right,table {
+    border-top-right-radius: 15px;
+}
+#rounded-bottom-left,table {
+    border-bottom-left-radius: 15px;
+
+}
+#rounded-bottom-right,table {
+    border-bottom-right-radius: 15px;
+}
+
+#brazil,#spain,#italy,#argentina,#rounded-bottom-left {
+    text-align: right;
+}
+
+#brazil:after {
+    background-image: url("../images/Brazil_flag.png");
+    background-repeat: no-repeat;
+    text-align: right;
+    background-size: 15px 10px;
+    display: inline-block;
+    width: 15px;
+    height: 10px;
+    content:"";
+
+}
+#spain:after {
+    background-image: url("../images/Spain-Flag.jpg");
+    background-repeat: no-repeat;
+    text-align: right;
+    background-size: 15px 10px;
+    display: inline-block;
+    width: 15px;
+    height: 10px;
+    content:"";
+}
+#italy:after {
+    background-image: url("../images/Italy.png");
+    background-repeat: no-repeat;
+    text-align: right;
+    background-size: 15px 10px;
+    display: inline-block;
+    width: 15px;
+    height: 10px;
+    content:"";
+}
+#argentina:after {
+    background-image: url("../images/Argentina_flag.png");
+    background-repeat: no-repeat;
+    text-align: right;
+    background-size: 15px 10px;
+    display: inline-block;
+    width: 15px;
+    height: 10px;
+    content:"";
+}
+#rounded-bottom-left:after {
+    background-image: url("../images/Germany.jpg");
+    background-repeat: no-repeat;
+    text-align: right;
+    background-size: 15px 10px;
+    display: inline-block;
+    width: 15px;
+    height: 10px;
+    content:"";
+}
+
+/*//////////////////////*/
+
+
+#mexico:before {
+    background-image: url("../images/Mexico.jpg");
+    background-repeat: no-repeat;
+    text-align: right;
+    background-size: 15px 10px;
+    display: inline-block;
+    width: 15px;
+    height: 10px;
+    content:"";
+
+}
+#netherlands:before {
+    background-image: url("../images/netherland_flag.gif");
+    background-repeat: no-repeat;
+    text-align: right;
+    background-size: 15px 10px;
+    display: inline-block;
+    width: 15px;
+    height: 10px;
+    content:"";
+}
+#england:before {
+    background-image: url("../images/England_flag.png");
+    background-repeat: no-repeat;
+    text-align: right;
+    background-size: 15px 10px;
+    display: inline-block;
+    width: 15px;
+    height: 10px;
+    content:"";
+}
+#bosna-herz:before {
+    background-image: url("../images/Flag_of_Bosnia_and_Herzegovina.svg.png");
+    background-repeat: no-repeat;
+    text-align: right;
+    background-size: 15px 10px;
+    display: inline-block;
+    width: 15px;
+    height: 10px;
+    content:"";
+}
+#portugal:before {
+    background-image: url("../images/Portugal_flag.png");
+    background-repeat: no-repeat;
+    text-align: right;
+    background-size: 15px 10px;
+    display: inline-block;
+    width: 15px;
+    height: 10px;
+    content:"";
+}
+
+.right-align {
+    text-align: right;
+}
+
+tr:nth-child(2n+1) {
+    background-color: white;
+}
+tr:nth-child(2n) {
+    background-color: #C8C8C8;
+}
+button {
+    display:block;
+    width:35px;
+    height:35px;
+    border: 2px solid #f5f5f5;
+    border-radius: 50%;
+    color:#f5f5f5;
+    text-align:center;
+    text-decoration:none;
+    background: #00923E;
+    font-size:10px;
+}
+
+
+.btn-red {
+   margin: auto;
+    background-color: red;
+}
+.btn-green {
+    margin: auto;
+}
+
+.group{
+    text-align: center;
+}
+.disable-choice {
+    color: red;
+    width: 30px;
+    height: 30px;
+    background-color: #C8C8C8;
+}
+.enable-choice {
+    color: #00923E;
+    width: 30px;
+    height: 30px;
+}
+label {
+    padding: 3px;
+}
