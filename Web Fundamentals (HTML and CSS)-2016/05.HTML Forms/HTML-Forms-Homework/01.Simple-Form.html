@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Simple Form</title>
+    <link rel="stylesheet" href="styles/Simple-Form-style.css">
+    <script src="scripts/validation.js"></script>
+    <script src="scripts/jquery-3.0.0.js"></script>
+</head>
+<body>
+    <div id="wrapper">
+        <p>Enter the system</p>
+        <p>It is necessary to login in Your account in order to sing in for a course.</p>
+        <div id="container1">
+        <form method="post">
+            <header><h1>are you new? <span>Register</span></h1></header>
+            <label for="username"></label>
+            <input type="text" id="username" placeholder="User name" >
+
+            <label for="email"></label>
+            <input type="email" id="email" placeholder="Email">
+
+            <label for="password"></label>
+            <input type="password" id="password" placeholder="Password" >
+
+            <label for="confPass"></label>
+            <input type="password" id="confPass" placeholder="Confirm Password" >
+            <!--<input type="button" value="Register">-->
+            <button type="submit" id="register-button" onclick="registerValidation()">Register</button>
+        </form>
+        </div>
+        <div id="container2">
+        <form method="post">
+            <header><h1>already a student? <span>login</span></h1></header>
+            <label for="user-name"></label>
+            <input type="text" id="user-name" placeholder="User name">
+
+            <label for="pass"></label>
+            <input type="password" id="pass" placeholder="Password">
+
+            <input type="checkbox" id="checkbox" value="Remember me">
+            <label for="checkbox">Remember me?</label>
+
+            <input type="button" value="Login">
+            <div><a href="#">Forgot Password</a></div>
+        </form>
+        </div>
+    </div>
+</body>
+</html>

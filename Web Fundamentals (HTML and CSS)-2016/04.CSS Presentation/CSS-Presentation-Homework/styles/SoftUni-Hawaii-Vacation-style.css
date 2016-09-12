@@ -1,0 +1,62 @@
+#wrapper {
+    background: url("../images/HawaiiBackground.png"),
+    radial-gradient(ellipse farthest-corner at 166px 118px,
+            #fff81f 4%, rgba(255, 248, 31, 0) 12%, #0000FF 95%) no-repeat;
+
+    height: 600px;
+    width: 900px;
+}
+
+#Vlado {
+    position: absolute;
+    top: 228px;
+    left: 50px;
+    width: 265px;
+    height: 350px;
+    display: inline-block;
+}
+
+#Petia {
+    position: absolute;
+    top: 200px;
+    left: 188px;
+    width: 238px;
+    height: 375px;
+    display: inline-block;
+}
+
+#Tedi {
+    position: absolute;
+    top: 366px;
+    left: 273px;
+    width: 156px;
+    height: 220px;
+    display: inline-block;
+}
+
+#Nakov {
+    position: absolute;
+    top: 166px;
+    left: 426px;
+    width: 215px;
+    height: 400px;
+    display: inline-block;
+}
+
+#Alex {
+    position: absolute;
+    top: 204px;
+    left: 508px;
+    width: 238px;
+    height: 375px;
+    display: inline-block;
+}
+
+#VladoKHula {
+    position: absolute;
+    top: 228px;
+    left: 688px;
+    width: 213px;
+    height: 350px;
+    display: inline-block;
+}

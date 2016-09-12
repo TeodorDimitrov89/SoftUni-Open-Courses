@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+</head>
+<body>
+<canvas id="myCanvas" width="350" height="400" style="border:5px dotted #ff0000;">
+</canvas>
+<script>
+    window.onload=function () {
+        var can = document.getElementById("myCanvas");
+        var Jctx = can.getContext("2d");
+        Jctx.font = "40px Arial";
+        Jctx.fillStyle = "#333232";
+        Jctx.fillText("I love JavaScript",30,80);
+        Jctx.fillStyle = "#F1DA4E";
+        Jctx.fillRect(100,140,150,150);
+        Jctx.fillStyle="#333232";
+        Jctx.font="80px Arial";
+        Jctx.fillText("JS",130,260)
+    }
+</script>
+</body>
+</html>

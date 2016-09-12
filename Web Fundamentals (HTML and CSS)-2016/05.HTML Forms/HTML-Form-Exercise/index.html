@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Simple form</title>
+    <link rel="stylesheet" href="styles/Simple-Form-style.css">
+</head>
+<body>
+<div id="wrapper">
+    <div id="content">
+    <form method="post">
+        <label>
+            Username<input type="text" placeholder="Enter your username">
+        </label>
+        <label>
+            First name<input type="text" placeholder="Enter your first name">
+        </label>
+        <label>
+            Last name<input type="text" placeholder="Enter your last name">
+        </label>
+        <label>
+            E-mail<input type="email" placeholder="Enter a valid E-mail">
+        </label>
+        <label>
+            Birth date<input type="date" placeholder="mm/dd/yyyy">
+        </label>
+        <label>Gender
+            <select name="Gender" id="gender">
+                <option value="Male">Male</option>
+                <option value="Female">Female</option>
+                <option value="Other" selected="selected">Other</option>
+            </select>
+
+        </label>
+        <label id="country1">
+
+            <select name="country" id="country">
+                <optgroup label="Europe">
+                    <option value="Bulgaria">Bulgaria</option>
+                    <option value="England">England</option>
+                    <option value="France">France</option>
+                </optgroup>
+                <optgroup label="Africa">
+                    <option value="Benin">Benin</option>
+                    <option value="Niger">Niger</option>
+                </optgroup>
+
+            </select>
+        </label>
+
+    </form>
+
+    </div>
+</div>
+</body>
+</html>

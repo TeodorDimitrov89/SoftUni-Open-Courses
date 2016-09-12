@@ -1,0 +1,163 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Programmer Calculator</title>
+    <link rel="stylesheet" href="styles/programmer-calculator-style.css">
+</head>
+<body>
+<div id="wrapper">
+    <!--<!– CALCULATOR HEAD –>-->
+    <div id="top-menu">
+        <img class="icon" src="img-calculator/calculator-icon.png" alt="calculator" width="12" height="17">
+        <span id="name">Calculator</span>
+        <input type="button" id="close-icon">
+        <input type="button" id="restore-down">
+        <input type="button" id="minimize">
+    </div>
+    <nav>
+        <ul class="menu">
+            <li><a href="#">View</a></li>
+            <li><a href="#">Edit</a></li>
+            <li><a href="#">Help</a></li>
+        </ul>
+    </nav>
+    <div class="result-section-clear">
+        <input type="text" class="result" maxlength="16">
+
+        <div class="binary">
+            <span>0000</span>
+            <span>0000</span>
+            <span>0000</span>
+            <span>0000</span>
+            <span>0000</span>
+            <span>0000</span>
+            <span>0000</span>
+            <span>0000</span>
+            <div>
+                <span class="first-position">63</span>
+                <span class="second-position">47</span>
+                <span class="last-position">32</span>
+            </div>
+            <span>0000</span>
+            <span>0000</span>
+            <span>0000</span>
+            <span>0000</span>
+            <span>0000</span>
+            <span>0000</span>
+            <span>0000</span>
+            <span>0000</span>
+            <div>
+                <span class="first-position">31</span>
+                <span class="second-position">15</span>
+                <span class="last-position">0</span>
+            </div>
+        </div>
+        <div class="systems-section">
+            <ul>
+                <li>
+                    <label>
+                        <input type="radio" name="Hex">Hex
+                    </label>
+                </li>
+                <li>
+                    <label>
+                        <input type="radio" name="Hex">Dec
+                    </label>
+                </li>
+                <li>
+                    <label>
+                        <input type="radio" name="Hex">Oct
+                    </label>
+                </li>
+                <li>
+                    <label>
+                        <input type="radio" name="Hex">Bin
+                    </label>
+                </li>
+            </ul>
+
+        </div>
+        <div class="buttons">
+            <div class="group-button">
+            <input type="button" value="" id="float">
+            <input type="button" value="Mod" style="margin-left: 4px;">
+            <input type="button" value="A" class="disable">
+            <input type="button" value="MC"  class="disable">
+            <input type="button" value="MR" class="disable">
+            <input type="button" value="MS" class="disable">
+            <input type="button" value="M+" class="disable">
+            <input type="button" value="M-" class="disable">
+            <input type="button" value="&#40;">
+            <input type="button" value="&#41;">
+            <input type="button" value="B" class="disable">
+            <input type="button" value="&#8592;">
+            <input type="button" value="CE">
+            <input type="button" value="C" class="disable">
+            <input type="button" value="&#177;">
+            <input type="button" value="&#8730;">
+            <input type="button" value="RoL">
+            <input type="button" value="RoR">
+            <input type="button"  value="C">
+            <input type="button" value="7">
+            <input type="button" value="8">
+            <input type="button" value="9">
+            <input type="button" value="&#47;">
+            <input type="button" value="&#37;">
+            </div>
+            <div class="group-button">
+            <input type="button" value="Or" >
+            <input type="button" value="Xor">
+            <input type="button" value="D" class="disable">
+            <input type="button" value="4">
+            <input type="button" value="5">
+            <input type="button" value="6">
+            <input type="button" value="&#42;">
+            <input type="button" value="1/x">
+            <input type="button" value="Lsh">
+            <input type="button" value="Rsh">
+            <input type="button" value="E" class="disable">
+            <input type="button" value="1">
+
+            <input type="button" value="2">
+            <input type="button" value="3">
+            <input type="button" value="-">
+            <input type="button" value="&#61;" id="equals">
+            <input type="button" value="Not">
+            <input type="button" value="And">
+            <input type="button" value="F" class="disable">
+            <input type="button" value="0" id="zero">
+            <input type="button" value="&#46;">
+            <input type="button" value="+">
+            </div>
+
+        </div>
+        <div class="data-type-section">
+            <ul>
+                <li>
+                    <label>
+                        <input type="radio" name="Qword">Qword
+                    </label>
+                </li>
+                <li>
+                    <label>
+                        <input type="radio" name="Qword">Dword
+                    </label>
+                </li>
+                <li>
+                    <label>
+                        <input type="radio" name="Qword">Word
+                    </label>
+                </li>
+                <li>
+                    <label>
+                        <input type="radio" name="Qword">Byte
+                    </label>
+                </li>
+            </ul>
+        </div>
+
+    </div>
+</div>
+</body>
+</html>

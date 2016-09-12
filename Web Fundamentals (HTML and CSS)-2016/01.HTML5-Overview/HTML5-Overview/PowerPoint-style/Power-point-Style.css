@@ -1,0 +1,22 @@
+body {
+    background: url("../images/background.png") no-repeat;
+}
+.heading-tags {
+    margin-left: 70px;
+    background-color: #20201E;
+    width: 1500px;
+    height: 60px;;
+}
+.listStyle,header {
+    color: orange;
+}
+.listStyle h2 {
+    color: #FFFFFF;
+    display: inline-block;
+}
+div {
+    border:#b9c6be 1px solid;
+    color: #FBEEC9;
+    height: 50px;
+    width: 1000px;
+}

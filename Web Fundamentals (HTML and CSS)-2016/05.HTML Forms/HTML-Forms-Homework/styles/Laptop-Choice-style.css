@@ -1,0 +1,116 @@
+/* http://meyerweb.com/eric/tools/css/reset/
+   v2.0 | 20110126
+   License: none (public domain)
+*/
+
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, embed,
+figure, figcaption, footer, header, hgroup,
+menu, nav, output, ruby, section, summary,
+time, mark, audio, video {
+    margin: 0;
+    padding: 0;
+    border: 0;
+    font: inherit;
+    vertical-align: baseline;
+}
+
+/* HTML5 display-role reset for older browsers */
+article, aside, details, figcaption, figure,
+footer, header, menu, nav, section {
+    display: block;
+}
+
+body {
+    line-height: 1;
+}
+
+ol, ul {
+    list-style: none;
+}
+
+#wrapper {
+    width: 600px;
+    height: 360px;
+    font-size: 16px;
+    border: 1px solid black;
+    display: inline-block;
+}
+
+header h1 {
+    padding: 12px;
+    font-size: 1.3em;
+}
+
+fieldset {
+    margin-left: 7px;
+    /*border: 1px solid #E7F4FC;*/
+    border: 1px solid black;
+    border-radius: 5px;
+    height: 150px;
+    width: 125px;
+    display: inline-block;
+    margin-bottom: 5px;
+}
+
+h2 {
+    font-size: 0.9em;
+    padding-top: 9px;
+    padding-left: 5px;
+}
+
+h2:after {
+    content: url("../image/1laptop.png");
+}
+
+#main {
+    float: left;
+    width: 410px;
+    height: 308px;
+    /*border: 1px solid black;*/
+}
+
+.left {
+    font-size: 0.6em;
+}
+
+.right {
+    font-size: 0.6em;
+    float: right;
+    margin-right: 10px;
+    margin-top: 5px;
+}
+
+input[type="range"] {
+    margin-bottom: 10px;
+    width: 170px;
+}
+
+#slider {
+    height: 305px;
+    width: 180px;
+    display: block;
+    float: right;
+    border: 1px solid #E7F4FC;
+    background-color: #F7FCFF;
+}
+.price {
+    display: inline-block;
+    float: right;
+    height: 19px;
+    margin-top: 10px;
+    background-color: #2C425A;
+    color: white;
+    font-size: 0.7em;
+    padding-top: 5px;
+    border-top-left-radius: 6px;
+    border-bottom-right-radius: 5px;
+}

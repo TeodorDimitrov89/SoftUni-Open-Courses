@@ -1,0 +1,135 @@
+#outside-box {
+    width: 465px;
+    height: 200px;
+    text-align: center;
+    font-size: 1.9em;
+    border-top: 5px dotted yellow;
+    border-left: 5px dashed red;
+    border-right: 10px solid green;
+    border-bottom: 10px double blue;
+    text-shadow: 0 1px 3px #000, 11px 11px 8px #808080;
+    box-shadow: 0 10px 23px #000, 24px 24px 13px #808080;
+}
+
+#inside-box {
+    font-size: 20px;
+    width: 410px;
+    height: 85px;
+    margin-left: 25px;
+    padding-top: 5px;
+    border-radius: 60px;
+    box-shadow: 0 0 0 2px red,
+    0 0 0 4px yellow,
+    0 0 0 5px green,
+    0 0 0 7px blue;
+}
+
+#circle-smallest {
+    width: 25px;
+    height: 25px;
+    position: absolute;
+    border-radius: 25px;
+    background-color: grey;
+    top: 118px;
+    bottom: 20px;
+    left: 370px;
+    opacity: 0.4;
+}
+#circle-smallest:before {
+    content: " ";
+    position: absolute;
+    z-index: -1;
+    top: 3px;
+    left: 3px;
+    right: 3px;
+    bottom: 3px;
+    border: 2px dashed rgb(255,255,255);
+    border-radius: 25px;
+}
+#circle-smaller {
+    width: 35px;
+    height: 35px;
+    position: absolute;
+    border-radius: 25px;
+    background-color: grey;
+    top: 81px;
+    bottom: 20px;
+    left: 400px;
+    opacity: 0.4;
+}
+#circle-smaller:before {
+    content: " ";
+    position: absolute;
+    z-index: -1;
+    top: 3px;
+    left: 3px;
+    right: 3px;
+    bottom: 3px;
+    border: 2px dashed rgb(255,255,255);
+    border-radius: 25px;
+}
+#circle {
+    width: 100px;
+    height: 58px;
+    position: absolute;
+    border-radius: 25px;
+    background-color: grey;
+    top: 26px;
+    left: 447px;
+    opacity: 0.4;
+
+}
+#circle:before {
+    content: "I'm so cool!";
+    color: white;
+    position: absolute;
+    z-index: -1;
+    top: 3px;
+    left: 3px;
+    right: 3px;
+    bottom: 3px;
+    border: 2px dashed rgb(255,255,255);
+    border-radius: 25px;
+
+}
+
+#normal {
+    font-style: normal;
+    font-size: 16px;
+    margin-bottom: 15px;
+    text-shadow: 0 8px 10px #000, 7px 3px 5px #808080;
+}
+
+p {
+    margin-top: 10px;
+    margin-left: 30px;
+    margin-right: 10px;
+    font-family: sans-serif;
+}
+.not-button {
+    display: inline-block;
+    font:  11px Arial;
+    width: 130px;
+    margin-left: 2px;
+    text-decoration: none;
+    background-color: #D5901C;
+    color: black;
+    border: 3px solid #FFA600;
+    border-right-color: #333333;
+    border-bottom-color: #333333;
+}
+
+input::-webkit-input-placeholder {
+    color: #000000;
+    text-align: center;
+}
+
+input:-moz-placeholder { /* Firefox 18- */
+    color: #000000;
+    text-align: center;
+}
+
+input::-moz-placeholder {  /* Firefox 19+ */
+    color: #000000;
+    text-align: center;
+}

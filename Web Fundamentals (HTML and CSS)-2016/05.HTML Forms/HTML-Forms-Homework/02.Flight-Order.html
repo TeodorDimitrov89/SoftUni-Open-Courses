@@ -1,0 +1,77 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+    <link rel="stylesheet" href="styles/Flight-Order-style.css">
+</head>
+<body>
+<div id="wrapper">
+    <header><h1>flight order</h1></header>
+    <div id="container1">
+        <form method="post">
+            <span>From</span>
+            <label for="start-city"></label>
+            <select name="start-city" id="start-city">
+                <option value="Sofia">enter a city</option>
+            </select>
+
+                <span id="departure-date" >Departure Date</span>
+            <label>
+                <input type="date" value="2014-06-09">
+            </label>
+
+            <span>Return Date</span>
+            <label>
+                <input type="date" value="2014-06-09">
+            </label>
+
+            <label for="age"></label>
+                <!--<span style="display: inline-block;">12+</span>-->
+                <input type="number" id="age" value="0" min="0" max="25" />
+
+            <label></label>
+                <!--<span style="display: inline-block;">2-12</span>-->
+                <input type="number" value="0" min="2" max="12" />
+
+            <label>
+                <!--<span style="display: inline-block;">0-2</span>-->
+                <input type="number" value="0" min="0" max="2"/>
+            </label>
+        </form>
+    </div>
+
+    <div id="container2">
+        <form method="post">
+            <span>To</span>
+            <label for="end-city"></label>
+            <select name="end-city" id="end-city">
+                <option value="Sofia">enter a city</option>
+            </select>
+            <input type="checkbox" id="checkbox" value="Remember me">
+            <label for="checkbox">Prefer directs</label>
+
+            <label>
+                <span class="time-interval">Time Interval</span>
+                <input name="arrivalTime" type="time" value="00:20" />
+                <input name="arrivalTime" type="time" value="05:00" />
+            </label>
+            <label>
+                <span class="time-interval" >Time Interval</span>
+                <input name="arrivalTime" type="time" value="16:00" />
+                <input name="arrivalTime" type="time" value="22:00" />
+            </label>
+            <label>
+                <span style="margin-left: 2px;margin-top: 1px;">Choose class</span>
+                <select name="city" >
+                    <option value="1">First</option>
+                    <option value="2">Business</option>
+                    <option value="4" selected="selected">Economy</option>
+                </select>
+            </label>
+            <input type="button" value="Search">
+        </form>
+    </div>
+</div>
+</body>
+</html>

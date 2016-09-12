@@ -1,0 +1,21 @@
+table {
+    background-color: #234465;
+}
+#logoText {
+    color: white;
+    width: 100px;
+}
+td {
+    color: #8E9FB0;
+}
+ul {
+    list-style:none;
+}
+button {
+    width: 42px;
+    height: 40px;
+    background: #234465 url(../images/search.png);
+    margin: 10px;
+    border: none;
+    cursor: pointer;
+}

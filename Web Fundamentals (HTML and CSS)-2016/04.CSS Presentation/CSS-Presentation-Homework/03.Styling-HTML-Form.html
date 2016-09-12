@@ -1,0 +1,97 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+    <link rel="stylesheet" href="styles/Styling-HTML-Form-style.css">
+</head>
+<body>
+<div id="wrapper">
+    <form>
+        <span class="step">Step 1: Your details</span>
+        <div class="details">
+            <label>
+                <span>Name</span>
+                <input type="text" class="user-info" placeholder="First and last name">
+            </label>
+        </div>
+        <div class="details">
+            <label>
+                <span>Email</span>
+                <input type="text" class="user-info" placeholder="example@domain.com">
+            </label>
+        </div>
+        <div class="details">
+            <label>
+                <span>Phone</span>
+                <input type="text" class="user-info" placeholder="eg. +447500000000">
+            </label>
+        </div>
+    </form>
+
+    <form>
+        <span class="step">Step 1: Delivery address</span>
+        <div id="address">
+            <label>
+                <span id="align-top">Address</span>
+                <textarea name="address" cols="30" rows="5" autofocus></textarea>
+            </label>
+        </div>
+        <div class="details">
+            <label>
+                <span>Post code</span>
+                <input type="text" id="post-code">
+            </label>
+        </div>
+        <div class="details">
+            <label>
+                <span>Country</span>
+                <input type="text" id="country">
+            </label>
+        </div>
+    </form>
+
+
+    <form>
+        <span class="step">Step 1: Card details</span>
+        <div>
+            <div id="card-details">
+                <span style="display: block">Card type</span>
+                <label>
+                    <input type="radio" name="card">
+                    <span id="visa">VISA</span>
+                </label>
+                <label>
+                    <input type="radio" name="card" id="card">
+                    <span id="amex">AmEx</span>
+                </label>
+                <label>
+                    <input type="radio" name="card">
+                    <span id="mastercard">Mastercard</span>
+                </label>
+            </div>
+        </div>
+
+        <div class="details">
+            <label>
+                <span>Card number</span>
+                <input type="text" class="card-info">
+            </label>
+        </div>
+        <div class="details">
+            <label>
+                <span>Security code</span>
+                <input type="text" class="card-info">
+            </label>
+        </div>
+        <div class="details">
+            <label>
+                <span>Name on card</span>
+                <input type="text" placeholder="exact name as on card" class="card-info">
+            </label>
+        </div>
+    </form>
+    <input type="button" id="button" value="BUY IT">
+</div>
+</body>
+</html>

@@ -1,0 +1,59 @@
+body {
+    font-family: Verdana, Tahoma sans-serif;
+    font-size: 16px;
+}
+
+#wrapper {
+    margin: 50px;
+    width: 700px;
+    height: 600px;
+    border: 2px solid black;
+    background-color: pink;
+}
+
+h1 {
+    padding-top: 50px;
+    font-size: 2.2em;
+    text-transform: uppercase;
+    font-style: italic;
+    font-weight: bold;
+    text-align: center;
+}
+
+.info-start {
+    display: inline-block;
+    width: 310px;
+    height: 220px;
+    border: 2px solid black;
+    margin-left: 25px;
+    margin-top: 25px;
+    float: left;
+}
+.info-start > label > span {
+    font-style: italic;
+
+}
+input[type="date"] {
+    display: block;
+    margin-top: 7px;
+    margin-bottom: 15px;
+    width: 200px;
+
+}
+
+input[type="number"] {
+    /*margin-top: 20px;*/
+    display: inline-block;
+}
+.city {
+    margin-top: 5px;
+    display: block;
+    width: 200px;
+    margin-bottom: 20px;
+}
+#destination {
+    margin-top: 5px;
+    display: block;
+    width: 200px;
+
+}

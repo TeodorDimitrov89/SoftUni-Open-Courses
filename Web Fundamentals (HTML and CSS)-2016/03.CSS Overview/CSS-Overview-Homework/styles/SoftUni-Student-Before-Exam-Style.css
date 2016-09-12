@@ -1,0 +1,115 @@
+#circle {
+    width: 500px;
+    height: 500px;
+    background: yellow;
+    -moz-border-radius: 250px;
+    -webkit-border-radius: 250px;
+    border-radius: 250px;
+    border: 3px solid black;
+}
+#eye-left {
+    position: absolute;
+    top: 130px;
+    bottom: 20px;
+    left:100px;
+    width: 100px;
+    height: 100px;
+    background: white;
+    -moz-border-radius: 50px;
+    -webkit-border-radius: 50px;
+    border-radius: 50px;
+    border: 3px solid black;
+}
+#pupil-left {
+    position: absolute;
+    top: 53px;
+    bottom: 20px;
+    left:43px;
+    width: 30px;
+    height: 30px;
+    background: black;
+    -moz-border-radius: 50px;
+    -webkit-border-radius: 50px;
+    border-radius: 50px;
+    border: 3px solid black;
+}
+#eye-right {
+    position: absolute;
+    top: 130px;
+    bottom: 20px;
+    left:315px;
+    width: 100px;
+    height: 100px;
+    background: white;
+    -moz-border-radius: 50px;
+    -webkit-border-radius: 50px;
+    border-radius: 50px;
+    border: 3px solid black;
+}
+#pupil-right {
+    position: absolute;
+    top:0;
+    bottom:0;
+    left:0;
+    width: 30px;
+    height: 30px;
+    background: black;
+    -moz-border-radius: 50px;
+    -webkit-border-radius: 50px;
+    border-radius: 50px;
+    border: 3px solid black;
+}
+#nose {
+    position: absolute;
+    top: 250px;
+    bottom: 20px;
+    left:220px;
+    width: 80px;
+    height: 80px;
+    background: red;
+    -moz-border-radius: 50px;
+    -webkit-border-radius: 50px;
+    border-radius: 50px;
+    border: 3px solid black;
+}
+
+#mouth {
+    position: absolute;
+    top: 360px;
+    bottom: 20px;
+    left:140px;
+    width: 240px;
+    height: 90px;
+    background: white;
+    -moz-border-radius: 50px;
+    -webkit-border-radius: 50px;
+    border-radius: 50px;
+    border: 3px solid black;
+}
+
+#teeth-left {
+    position: absolute;
+    top: 0;
+    bottom: 20px;
+    left:72px;
+    width: 40px;
+    height: 40px;
+    background: white;
+    border-bottom-left-radius: 10px;
+    border-bottom-right-radius: 10px;
+    border: 3px solid black;
+    border-top: 0;
+}
+#teeth-right {
+    position: absolute;
+    top: 0;
+    bottom: 20px;
+    left:115px;
+    width: 40px;
+    height: 40px;
+    background: white;
+    border-bottom-left-radius: 10px;
+    border-bottom-right-radius: 10px;
+    border: 3px solid black;
+    border-top: 0;
+}

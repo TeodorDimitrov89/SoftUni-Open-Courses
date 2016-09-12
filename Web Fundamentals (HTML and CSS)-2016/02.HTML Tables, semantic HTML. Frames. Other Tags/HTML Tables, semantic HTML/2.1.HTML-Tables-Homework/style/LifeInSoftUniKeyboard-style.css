@@ -1,0 +1,56 @@
+
+table,tr,td,th {
+    border: 1px solid black;
+}
+
+td {
+    padding: 5px;
+}
+
+table > thead > tr > th {
+    width: 30px;
+    height: 60px;
+    padding: 5px;
+}
+
+table > thead > tr > th > button {
+    width: 100%;
+    height: 57px;
+    font-weight: bold;
+    font-size: 20px;
+    color: blue;
+}
+
+.social {
+    width: 100%;
+    height: 50px;
+    color: blue;
+}
+
+#nested-table {
+    border: none;
+}
+#nested-table td {
+    border: none;
+}
+#nested-table>tbody>tr>td>button {
+    width: 100%;
+    height: 30px;
+    color: blue;
+    font-size: 0.68em;
+}
+#game,#food {
+    width: 100%;
+    height: 90px;
+    color: blue;
+}
+
+#beer,#wc  {
+    width: 100%;
+    height: 60px;
+    color: blue;
+    text-align: right;
+}
+#wc {
+    text-align: center;
+}
