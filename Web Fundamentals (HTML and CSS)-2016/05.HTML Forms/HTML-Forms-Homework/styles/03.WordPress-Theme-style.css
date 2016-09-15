@@ -1,0 +1,61 @@
+h1,header,span,input,label {
+    padding: 0;
+    margin: 0;
+}
+
+body {
+    font-size: 18px;
+}
+#wrapper {
+    width: 350px;
+    height: 130px;
+    padding-left: 10px;
+}
+header {
+    padding-top: 5px;
+}
+header:before {
+    content: url("../image/icon.png");
+    width: 55px;
+    height: 55px;;
+}
+
+span {
+    font-size: 2.1em;
+    color: #444444;
+    position: absolute;
+    top: 16px;
+    margin-left: 88px;
+}
+#blue {
+    left: 20px;
+    margin-left: 54px;
+    color: #20749A;
+}
+
+label[for="file"] {
+    font-size: 0.7em;
+}
+input {
+    font-size: 0.8em;
+    display: inline-block;
+}
+input[type="file"] {
+    font-size: 0.5em;
+}
+label[for="search"] {
+    font-size: 0.7em;
+}
+
+#search {
+    width: 120px;
+    margin-top: 10px;
+}
+img {
+    width: 25px;
+    height: 25px;
+    position: absolute;
+    margin-left: 5px;
+    padding-top: 5px;
+}
+

@@ -1,0 +1,132 @@
+body,div,p,form {
+    padding: 0;
+    margin: 0;
+}
+#wrapper {
+    margin: 4px;
+    background-color: #FFC0CB;
+    width: 301px;
+    height: 215px;
+    border: 1px solid #FFDEE4;
+    font-size: 16px;
+    font-family: Arial, sans-serif;
+}
+header h1 {
+    margin-bottom: 0px;
+    margin-top: 8px;
+    margin-left: 8px;
+    font-size: 1.3em;
+    text-transform: uppercase;
+    font-style: italic;
+    text-align: center;
+    letter-spacing: 1px;
+}
+#container1 {
+    height: 177px;
+    width: 149px;
+    display: inline-block;
+}
+#container1 form select {
+    width: 140px;
+    height: 17px;
+    border: 1px solid #E4B5BD;
+    margin-left: 8px;
+    font-size: 0.6em;
+}
+#container2 {
+    height: 177px;
+    width: 149px;
+    float: right;
+}
+#container2 form select {
+    width: 140px;
+    height: 17px;
+    border: 1px solid #E4B5BD;
+    margin-left: 2px;
+    font-size: 0.6em;
+}
+#container2 > form > span {
+    margin-left: 3px;
+}
+input[type="date"] {
+    margin-top: 5px;
+    margin-left: 8px;
+    width: 135px;
+    height: 13px;
+    font-size: 0.7em;
+    margin-bottom: 3px;
+}
+input[type="time"] {
+    margin-left: 3px;
+    margin-bottom: 5px;
+    width: 63px;
+    height: 13px;
+    font-size: 0.7em;
+    display: inline-block;
+}
+span {
+    display: block;
+    margin-top: 3px;
+    margin-left: 8px;
+    font-size: 0.5em;
+    font-style: italic;
+}
+.time-interval {
+    margin-top: 0;
+    margin-left: 3px;
+    position: relative;
+    top: -3px;
+    margin-bottom: 0px;
+    padding-top: 1px;
+}
+
+input[type="number"] {
+    margin-left: 0;
+    width: 30px;
+    height: 15px;
+    display: inline-block;
+    font-size: 1.2em;
+}
+#departure-date {
+    padding-top: 12px;
+}
+
+label[for="checkbox"] {
+    color: #000000;
+    font-size: 0.5em;
+    display: inline-block;;
+    padding-left: 14px;
+    font-style: italic;
+    text-indent: -15px;
+    position: relative;
+    top: -4px;
+}
+
+#checkbox {
+    width: 8px;
+    height: 8px;
+    padding: 0;
+    margin: 0 0 0 3px;
+    vertical-align: bottom;
+    position: relative;
+    top: -6px;
+    overflow: hidden;
+}
+
+input[type="button"] {
+    margin-top: 4px;
+    width: 140px;
+    margin-left: 2px;
+}
+
+.age-info {
+    width: 42px;
+    display: inline-block;
+}
+.age-info label {
+    display: block;
+    margin-top: 3px;
+    margin-left: 10px;
+    font-size: 0.5em;
+    font-style: italic
+}

@@ -1,0 +1,102 @@
+ul, div, nav, label {
+    padding: 0;
+    margin: 0;
+}
+
+body {
+    background: url("../image/03.LoginForm-Resources/backgroundImage.jpg") no-repeat center center fixed;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+}
+
+#wrapper {
+    font-size: 15px;
+    font-family: Tahoma, Helvetica, sans-serif;
+}
+
+h1 {
+    margin-top: 100px;
+    text-transform: uppercase;
+    border-bottom: 1px solid #DEB887;
+    color: #FFFFFF;
+    text-align: center;
+}
+
+#login {
+    margin-left: 35%;
+    margin-top: 6%;
+    margin-right: 2%;
+    display: inline-block;
+    width: 250px;
+    height: 350px;
+    border: 1px solid black;
+    background-color: rgba(137,65,69,0.5);
+    border-radius: 8px;
+}
+
+#login>header {
+    padding-top: 14px;
+    padding-bottom: 14px;
+    text-align: center;
+    font-size: 1.4em;
+    color: #DEB887;
+}
+
+#login input {
+    width: 170px;
+    height: 28px;
+    margin-bottom: 5px;
+    /*margin-left: 50px;*/
+}
+
+#register {
+    margin-right: 30%;
+    margin-top: 6%;
+    float: right;
+    width: 250px;
+    height: 350px;
+    border: 1px solid black;
+    background-color: rgba(137,65,69,0.5);
+}
+#register:after {
+    content: '';
+    display: block;
+    clear: both;
+    zoom: 1;
+}
+#register > header {
+    padding-top: 14px;
+    padding-bottom: 14px;
+    text-align: center;
+    font-size: 1.4em;
+    color: #DEB887;
+}
+#register input {
+    width: 170px;
+    height: 28px;
+    margin-bottom: 5px;
+    margin-left: 50px;
+}
+
+#send,#option {
+    width: 205px;
+    margin-left: 20px;
+    margin-bottom: 5px;
+    background-color: #3B8D59;
+    border: 1px solid #3B8D59;
+    border-radius: 4px;
+}
+
+#username-icon {
+    display: block;
+    margin-left: 10px;
+    padding-left: 15px;
+    padding-top: 5px;
+    float: left;
+    width: 35px;
+    height: 30px;
+    background-color: #5E3826;
+}
+
