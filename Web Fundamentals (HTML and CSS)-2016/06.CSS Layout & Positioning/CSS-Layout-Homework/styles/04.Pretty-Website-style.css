@@ -1,0 +1,181 @@
+body {
+    background-color: #000;
+}
+
+h1,h2,h3,h4 {
+    font-weight: bold;
+    margin-top: 15px;
+    margin-bottom: 10px;
+}
+
+#wrapper {
+    width: 1055px;
+    margin: auto;
+    padding: 0;
+    font-family: Arial,sans-serif;
+    font-size: 16px;
+}
+
+#wrapper>header>img {
+    position: relative;
+    color: #FFF;
+    text-transform: none;
+}
+#wrapper>header>h1 {
+    position: absolute;
+    top: 225px;
+    left: 825px;
+    width: 100%;
+    color: #FFF;
+    text-transform: none;
+}
+h1 {
+    font-size: 1.4em;
+}
+
+h2 {
+    font-size: 1.2em;
+}
+
+p,span {
+    font-size: 0.9em;
+}
+
+h1,h2 {
+    text-transform: uppercase;
+    color: #86B800;
+}
+
+a {
+    display: block;
+    color: #86B800;
+    text-decoration: none;
+    margin-bottom: 10px;
+}
+img {
+    display: inline-block;
+    margin-top: 20px;
+    margin-left: 10px;
+}
+header > img {
+    width: 1055px;
+    margin-left: 0;
+}
+
+nav {
+    display: block;
+    width: 1055px;
+    background-color: #DCDCDC;
+
+}
+
+
+ul li  {
+    display: inline-block;
+    height:50px;
+    width: 100px;
+    background-color: #EDEDED;
+    text-align: center;
+    color: #929094;
+    line-height: 50px;
+    text-transform: uppercase;
+    border: 4px solid #E4E4E4;
+}
+
+ul li:hover {
+    background-color: #B9B9B9;
+    color: #F4EAE9;
+    cursor: pointer;
+}
+
+main {
+    background-color: #fff;
+    width: 776px;
+    display: inline-block;
+    padding-left: 20px;
+}
+
+aside,#product article {
+    float: right;
+}
+aside {
+    width: 259px;
+    background-color: #fff;
+}
+#product p {
+    width: 540px;
+}
+#product {
+    height: 490px;
+    width: 94%;
+    border: 4px solid #EDEDED;
+}
+aside:after {
+    content: '';
+    display: block;
+    clear: both;
+    height: 0;
+    zoom: 1;
+}
+
+
+
+article > p{
+    float: right;
+}
+
+
+main > section,#news,#message {
+    height: 200px;
+    width: 93%;
+    margin-top: 20px;
+    margin-bottom: 20px;
+    border-radius: 5px;
+    padding-left: 10px;
+    padding-top: 10px;
+    border: 4px solid #EDEDED;
+
+}
+main > section {
+    height: 200px;
+
+}
+
+#news{
+    background-color: #EEEEEE;
+    padding-left: 10px;
+    width: 210px;
+}
+
+#news> header>h2 {
+
+    background-color: #EEEEEE;
+}
+
+#message {
+    height: 460px;
+    width: 210px;
+}
+
+
+
+span {
+    font-weight: bold;
+}
+
+
+footer {
+    text-align: center;
+    vertical-align: middle;
+    line-height: 100px;
+    width: 1050px;
+    height: 100px;
+    border: 4px solid #D1ECA4;
+    background-color: #9DD43B;
+}
+footer a {
+    display: inline-block;
+    color: #728E2F;
+    text-decoration: underline;
+}
+

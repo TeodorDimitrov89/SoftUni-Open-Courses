@@ -1,0 +1,98 @@
+body {
+
+    background-color: #EEEEEE;
+}
+#wrapper {
+    width: 660px;
+    height: 300px;
+    padding:0;
+    margin: 50px auto auto;
+    /*border: 5px solid black;*/
+    font-family: Arial,sans-serif;
+    font-size: 12px;
+}
+#wrapper > header > h1 {
+    font-size: 1.2em;
+    text-transform: uppercase;
+    margin-left: 20px;
+    margin-bottom: 5px;
+}
+img {
+    display: block;
+    margin: 20px auto;
+}
+a {
+    text-decoration: none;
+    color: #D7E8F1;
+}
+h1 {
+    font-size: 0.9em;
+    font-weight: bold;
+    color: #1E3F68;
+    text-transform: uppercase;
+}
+p {
+    font-size: 0.8em;
+}
+#calendar,#summer,#party {
+    width: 170px;
+    height: 230px;
+    background-color: #fff;
+    padding-left: 20px;
+    padding-right: 20px;
+    margin-right: 10px;
+    padding-top: 20px;
+    display: inline-block;
+    float: left;
+}
+#summer,#party {
+    margin-left: 0;
+}
+
+#calendar>span,#summer>span,#party>span {
+    float: right;
+}
+#calendar span::after {
+    content: '';
+    display: block;
+    clear: both;
+    height: 0;
+    zoom: 1;
+}
+#calendar > .border-bottom p,#party > .border-bottom p,#summer > .border-bottom p {
+    border-bottom: 2px solid #FAFAFA;
+    padding-bottom: 10px;
+}
+
+#calendar > .border-top p,#party > .border-top p,#summer > .border-top p {
+    border-top: 2px solid #FAFAFA;
+
+    padding-top: 10px;
+}
+
+footer {
+    color: #A7A9AE;
+    margin-top: 10px;
+
+}
+footer span {
+    float: left;
+    font-weight: bold;
+    color: #000;
+}
+
+
+li {
+    margin-top: 20px;
+    float: left;
+    background-color: #4CA0DB;
+    width: 15px;
+    height:15px;
+    border: 1px solid #93C6E9;
+    text-align: center;
+    line-height: 15px;
+}
+
+li:hover {
+    background-color: #FF9C00;
+}

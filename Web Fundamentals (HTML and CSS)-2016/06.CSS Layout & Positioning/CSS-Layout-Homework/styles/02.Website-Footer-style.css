@@ -1,0 +1,80 @@
+body {
+    background-color: #234465;
+}
+ul, a {
+    list-style-type: none;
+    color: #fff;
+    font-size: 14px;
+    text-decoration: none;
+}
+
+img {
+    width: 25px;
+    height: 25px;
+}
+
+#wrapper {
+    margin: 150px auto 0;
+    width: 1280px;
+    height: 240px;
+    /*border: 2px solid #000;*/
+
+    display:flex;
+}
+
+section h1 {
+    padding-top:30px;
+    text-transform: uppercase;
+    color: #DD8F0F;
+    font-size: 14px;
+}
+
+#apply {
+    padding-left: 50px;
+    padding-top: 50px;
+    width: 160px;
+    height: 257px;
+    flex: 0;
+}
+#apply button {
+    margin-bottom: 10px;
+    width: 150px;
+    height: 40px;
+    padding: 10px;
+    flex:0;
+    border: 2px solid #DD8F0F;
+    background-color: #1E3F68;
+    color: #fff;
+}
+#about,#our-friends {
+    flex:0.5;
+}
+
+#software {
+    flex:0.6;
+}
+
+#software h1 {
+    margin: 0;
+}
+
+#software > ul li {
+    display: inline-block;
+    padding-left: 10px;
+}
+
+#facebook {
+    width: 500px;
+    flex:0;
+}
+#facebook > img {
+    width: 200px;
+    height: 163px;
+    padding-right: 50px;
+    padding-top: 30px;
+    padding-left: 10px;
+}
+iframe {
+    margin-top: 25px;
+    padding: 15px;
+}
