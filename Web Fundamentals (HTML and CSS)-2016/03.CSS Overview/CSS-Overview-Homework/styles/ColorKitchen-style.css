@@ -6,7 +6,7 @@ body {
     background-image: url(../images/colorful_dots_on_black.jpg);
 }
 
-body> header {
+body > header {
     width: 100%;
     height: 60px;
     text-align: center;
